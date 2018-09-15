@@ -1,0 +1,1 @@
+yob = int(input("your year of birth"))
