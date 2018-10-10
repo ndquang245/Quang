@@ -11,7 +11,7 @@ p2 = {
 
 person_list.append(p1)
 person_list.append(p2)
-print(person_list)
+# print(person_list)
 
 # person_list.pop(0)
 # print(person_list)
@@ -20,5 +20,15 @@ print(person_list)
 #     "age" : 16
 # }
 # print(person_list)
+# p = person_list[0]
+# p["age"] += 1
+# print(p["name"])
+# print(p)
+
 p = person_list[0]
-print(p["name"])
+# print(p)
+for p in person_list:
+    print(p)
+    print(p["name"])
+    print(p["age"])
+    print("________")

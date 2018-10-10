@@ -55,43 +55,43 @@
 
 # print(pokemon[i])
 
-person_list = []
-p1 = {
-    "name" : "Huy",
-    "role" : "waiter",
-    "hours" : 12,
-    "salary per hours" : 0.8
-}
-p2 = {
-    "name" : "Tung",
-    "role" : "cook",
-    "hours" : 24,
-    "salary per hours" : 1.5
-}
-p3 = {
-    "name" : "M.Duc",
-    "role" : "manager",
-    "hours" : 20,
-    "salary per hours" : 2
-}
-person_list.append(p1)
-person_list.append(p2)
-person_list.append(p3)
-# print(person_list)
-p4 = {
-    "name" : "Don",
-    "role" : "waiter",
-    "hours" : 12,
-    "salary per hours" : 0.9
-}
-p5 = {
-    "name" : "H.Duc",
-    "role" : "waiter",
-    "hours" : 12,
-    "salary per hours" : 0.7
-}
-person_list.append(p4)
-person_list.append(p5)
+# person_list = []
+# p1 = {
+#     "name" : "Huy",
+#     "role" : "waiter",
+#     "hours" : 12,
+#     "salary per hours" : 0.8
+# }
+# p2 = {
+#     "name" : "Tung",
+#     "role" : "cook",
+#     "hours" : 24,
+#     "salary per hours" : 1.5
+# }
+# p3 = {
+#     "name" : "M.Duc",
+#     "role" : "manager",
+#     "hours" : 20,
+#     "salary per hours" : 2
+# }
+# person_list.append(p1)
+# person_list.append(p2)
+# person_list.append(p3)
+# # print(person_list)
+# p4 = {
+#     "name" : "Don",
+#     "role" : "waiter",
+#     "hours" : 12,
+#     "salary per hours" : 0.9
+# }
+# p5 = {
+#     "name" : "H.Duc",
+#     "role" : "waiter",
+#     "hours" : 12,
+#     "salary per hours" : 0.7
+# }
+# person_list.append(p4)
+# person_list.append(p5)
 # p3 = person_list[2]
 # print(p3)
 
@@ -102,8 +102,49 @@ person_list.append(p5)
 #     "salary per hours" : 1
 # }
 
-person_list.pop(4)
+# person_list.pop(4)
 
 
 
-print(person_list)
+# print(person_list)
+favs =[
+    {
+        "movies" : "pokemon",
+        "nam phat hanh" : 1900,
+        "nhan_vat" : ["picachu", "raichu", "onix", "chamander"]
+
+    },
+    {
+        "comic" : "doremon",
+        "nam phat hanh" : 1901,
+        "nhan_vat" : ["nobita", "shizuka", "xeko", "chaien"]
+
+    },
+]
+p1 = favs[0]
+p2 = favs[1]
+# p1["country"] = "japan"
+# p2["country"] = "japan"
+# print(favs)
+# for k,v in p1.items():
+#     print(k,v, sep='-')
+#     print("----")
+# for m,n in p2.items():
+#     print(m,n, sep='-')
+i1 = p1['nhan_vat']
+i2 = p2['nhan_vat']
+# i1[1] = "squiters"
+# i2[1] = "chaien"
+# i1.append("ivysours")
+# i2.append("doremon")
+# i1.pop(1)
+# i2.pop(1)
+# print(i1[1])
+
+
+
+# print(favs)
+# for x in i1:
+#     print(x)
+for y in p1:
+    print(y)
